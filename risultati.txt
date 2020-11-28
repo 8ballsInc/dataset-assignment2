@@ -1,0 +1,165 @@
+------ QUERY 1 ------ (giusta)
+    city    
+------------
+ Este
+ Barcelona
+ Shangai
+ London
+ Paris
+ Montevideo
+ Twickenham
+ Tokyo
+ Bogotà
+ Dortmund
+ Pechino
+ Venezia
+ Milan
+ Lisbona
+ New Delhi
+ Moscow
+(16 rows)
+
+------ QUERY 2 ------ (giusta)
+    city    
+------------
+ Barcelona
+ London
+ Paris
+ Twickenham
+ Dortmund
+ Pechino
+ Milan
+ Lisbona
+ Moscow
+(9 rows)
+
+------ QUERY 3 ------ (ahahaha)
+
+?????????
+
+------ QUERY 4 ------ (giusta)
+          name          | capacity 
+------------------------+----------
+ Beijing Stadium        |   100000
+ Bogotà Stadium         |   100300
+ Luzniki                |    78000
+ Wembley Stadium        |    90000
+ Signal Iduna Park      |    81365
+ Camp Nou               |    99534
+ Twickenham Stadium     |    82000
+ Arsenale               |   100000
+ Stade de France        |    81383
+ Estadio da Luz         |    65000
+ Stadio Giuseppe Meazza |    80018
+(11 rows)
+
+------ QUERY 5 ------ (giusta)
+ country 
+---------
+ Italy
+ England
+ Russia
+(3 rows)
+
+------ QUERY 6 ------ (giusta)
+ country | country 
+---------+---------
+(0 rows)
+
+------ QUERY 7 ------ (giusta)
+ country 
+---------
+ Albania
+(1 row)
+
+------ QUERY 8 ------ (sbagliata)
+          name          
+------------------------
+ Wembley Stadium
+ Arsenale
+ Twickenham Stadium
+ Estadio de Uruguay
+ Stadio Giuseppe Meazza
+ Stade de France
+ Signal Iduna Park
+ Bolshoi Teatr
+ Camp Nou
+ Estadio da Luz
+ Luzniki
+ New Delhi Stadium
+(12 rows)
+
+------ QUERY 9 ------ (giusta)
+ country 
+---------
+ Brasil
+ Bolivia
+(2 rows)
+
+------ QUERY 10 ------ (giusta)
+       team_1       |       team_2       
+--------------------+--------------------
+ Brasil             | Regno Veneto Unito
+ France             | Regno Veneto Unito
+ Brasil             | Bolivia
+ Bolivia            | Regno Veneto Unito
+ India              | China
+ China              | Bolivia
+ Regno Veneto Unito | Albania
+ Portugal           | China
+(8 rows)
+
+------ QUERY 11 ------ (sbagliata)
+ group 
+-------
+(0 rows)
+
+------ QUERY 12 ------ (di bragg)
+     stadium     |    date    |   time   |        home        |  guest  
+-----------------+------------+----------+--------------------+---------
+ Bolshoi Teatr   | 2020-12-19 | 16:47:37 | Regno Veneto Unito | Germany
+ Stade de France | 2020-12-19 | 16:47:37 | Italy              | England
+(2 rows)
+
+------- QUERY 13 ------ (sbagliatissima lol)
+        stadium         | count 
+------------------------+-------
+ Wembley Stadium        |    66
+ Arsenale               |     1
+ Twickenham Stadium     |    49
+ Stadio Giuseppe Meazza |    60
+ Stade de France        |    72
+ Signal Iduna Park      |    83
+ Tokyo Stadium          |     1
+ Bogotà Stadium         |     2
+ Bolshoi Teatr          |     2
+ Estadio da Luz         |    64
+ Camp Nou               |    56
+ Luzniki                |    71
+(12 rows)
+
+------- QUERY 14 ------ (giusta)
+   continent   |  max   |  round   
+---------------+--------+----------
+ Asia          | 100000 | 76000.00
+ South America | 100300 | 86400.00
+ Europe        | 100000 | 70278.57
+(3 rows)
+
+------ QUERY 15 ------ (giusta???)
+  continent   | count 
+---------------+-------
+ Asia          |     1
+ South America |    48
+ Europe        |  1153
+(3 rows)
+
+
+
+
+
+
+
+
+
+
