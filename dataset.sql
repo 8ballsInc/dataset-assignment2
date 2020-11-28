@@ -1,7 +1,6 @@
 -- 27/11/2020
 INSERT INTO "Nationality" VALUES ('Italy', 'Europe', 'A');
 INSERT INTO "Nationality" VALUES ('France', 'Europe', 'A');
-INSERT INTO "Nationality" VALUES ('China', 'Asia', 'A');
 INSERT INTO "Nationality" VALUES ('Spain', 'Europe', 'B');
 INSERT INTO "Nationality" VALUES ('Germany', 'Europe', 'F');
 INSERT INTO "Nationality" VALUES ('England', 'Europe', 'M');
@@ -9,14 +8,17 @@ INSERT INTO "Nationality" VALUES ('Brasil', 'South America', 'L');
 INSERT INTO "Nationality" VALUES ('Uruguay', 'South America', 'D');
 INSERT INTO "Nationality" VALUES ('Russia', 'Europe', 'M');
 INSERT INTO "Nationality" VALUES ('Regno Veneto Unito', 'Europe', 'B');
+
+INSERT INTO "Nationality" VALUES ('China', 'Asia', 'A');
 INSERT INTO "Nationality" VALUES ('Japan', 'Asia', 'B');
 INSERT INTO "Nationality" VALUES ('India', 'Asia', 'B');
 INSERT INTO "Nationality" VALUES ('Myanmar', 'Asia', 'D');
+INSERT INTO "Nationality" VALUES ('Kazakhstan', 'Asia', 'C');
+INSERT INTO "Nationality" VALUES ('Taiwan', 'Asia', 'C');
+
 INSERT INTO "Nationality" VALUES ('Portugal', 'Europe', 'C');
 INSERT INTO "Nationality" VALUES ('Bolivia', 'South America', 'C');
 INSERT INTO "Nationality" VALUES ('Albania', 'Europe', 'C');
-INSERT INTO "Nationality" VALUES ('Kazakhstan', 'Asia', 'C');
-INSERT INTO "Nationality" VALUES ('Taiwan', 'Asia', 'C');
 INSERT INTO "Nationality" VALUES ('Cile', 'South America', 'B');
 INSERT INTO "Nationality" VALUES ('Australia', 'Oceania', 'D');
 
