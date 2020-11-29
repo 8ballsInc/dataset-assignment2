@@ -98,7 +98,7 @@ QUERY 8
  Stadio Grande del Bragg
 (3 rows)
 
-QUERY 9 (Bro credo che sia sbagliata)
+QUERY 9
   country   
 ------------
  Thomasinia
