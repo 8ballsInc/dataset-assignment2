@@ -1,27 +1,30 @@
--- 27/11/2020
 INSERT INTO "Nationality" VALUES ('Italy', 'Europe', 'A');
 INSERT INTO "Nationality" VALUES ('France', 'Europe', 'A');
-INSERT INTO "Nationality" VALUES ('Spain', 'Europe', 'B');
-INSERT INTO "Nationality" VALUES ('Germany', 'Europe', 'F');
-INSERT INTO "Nationality" VALUES ('England', 'Europe', 'M');
-INSERT INTO "Nationality" VALUES ('Brasil', 'South America', 'L');
-INSERT INTO "Nationality" VALUES ('Uruguay', 'South America', 'D');
-INSERT INTO "Nationality" VALUES ('Russia', 'Europe', 'M');
-INSERT INTO "Nationality" VALUES ('Regno Veneto Unito', 'Europe', 'B');
-
 INSERT INTO "Nationality" VALUES ('China', 'Asia', 'A');
+
+INSERT INTO "Nationality" VALUES ('Spain', 'Europe', 'B');
+INSERT INTO "Nationality" VALUES ('Regno Veneto Unito', 'Europe', 'B');
 INSERT INTO "Nationality" VALUES ('Japan', 'Asia', 'B');
 INSERT INTO "Nationality" VALUES ('India', 'Asia', 'B');
-INSERT INTO "Nationality" VALUES ('Myanmar', 'Asia', 'D');
-INSERT INTO "Nationality" VALUES ('Kazakhstan', 'Asia', 'C');
-INSERT INTO "Nationality" VALUES ('Taiwan', 'Asia', 'C');
+INSERT INTO "Nationality" VALUES ('Cile', 'South America', 'B');
+INSERT INTO "Nationality" VALUES ('Australia', 'Oceania', 'B');
 
 INSERT INTO "Nationality" VALUES ('Portugal', 'Europe', 'C');
 INSERT INTO "Nationality" VALUES ('Bolivia', 'South America', 'C');
 INSERT INTO "Nationality" VALUES ('Albania', 'Europe', 'C');
-INSERT INTO "Nationality" VALUES ('Cile', 'South America', 'B');
-INSERT INTO "Nationality" VALUES ('Australia', 'Oceania', 'D');
+INSERT INTO "Nationality" VALUES ('Kazakhstan', 'Asia', 'C');
+INSERT INTO "Nationality" VALUES ('Taiwan', 'Asia', 'C');
 
+INSERT INTO "Nationality" VALUES ('Myanmar', 'Asia', 'D');
+
+INSERT INTO "Nationality" VALUES ('Uruguay', 'South America', 'D');
+
+INSERT INTO "Nationality" VALUES ('Germany', 'Europe', 'F');
+
+INSERT INTO "Nationality" VALUES ('Brasil', 'South America', 'L');
+
+INSERT INTO "Nationality" VALUES ('England', 'Europe', 'M');
+INSERT INTO "Nationality" VALUES ('Russia', 'Europe', 'M');
 
 INSERT INTO "Stadium" VALUES ('Camp Nou', 'Barcelona', 'Spain', 99534);
 INSERT INTO "Stadium" VALUES ('Wembley Stadium', 'London', 'England', 90000);
@@ -46,6 +49,7 @@ INSERT INTO "Stadium" VALUES ('Kolkata Stadium', 'Kolkata', 'India', 60000);
 INSERT INTO "Stadium" VALUES ('New Delhi Stadium', 'New Delhi', 'India', 60000);
 INSERT INTO "Stadium" VALUES ('Stadio Trebaseleghe', 'Trebaseleghe', 'Italy', 800);
 INSERT INTO "Stadium" VALUES ('Teatro del Castèo', 'Este', 'Italy', 800);
+
 
 INSERT INTO "Match" VALUES ('Estadio de Uruguay', '2010-12-12', '13:57:12', 'Regno Veneto Unito', 'Albania');
 INSERT INTO "Match" VALUES ('Bolshoi Teatr', '2020-12-19', '16:47:37', 'Regno Veneto Unito', 'Germany');
