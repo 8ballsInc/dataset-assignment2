@@ -1,0 +1,173 @@
+QUERY EFFETTUATE CON IL DATASET DEL 29/11/20 -> COMMIT d600d53abf65904f165a72217a9db9f7f4fc2a1d
+
+QUERY 1
+    city    
+------------
+ Barcelona
+ Bogotà
+ Dortmund
+ Este
+ Lisbona
+ London
+ Milan
+ Montevideo
+ Moscow
+ New Delhi
+ Paris
+ Pechino
+ Shangai
+ Tokyo
+ Twickenham
+ Venezia
+(16 rows)
+
+QUERY 2
+    city    
+------------
+ Barcelona
+ Dortmund
+ Lisbona
+ London
+ Milan
+ Moscow
+ Paris
+ Pechino
+ Twickenham
+(9 rows)
+
+QUERY 3
+ country  
+----------
+ Bolivia
+ Brasil
+ China
+ England
+ France
+ Germany
+ Italy
+ Portugal
+ Russia
+ Spain
+ Uruguay
+(11 rows)
+
+QUERY 4
+          name          | capacity 
+------------------------+----------
+ Arsenale               |   100000
+ Beijing Stadium        |   100000
+ Camp Nou               |    99534
+ Estadio da Luz         |    65000
+ Luzniki                |    78000
+ Signal Iduna Park      |    81365
+ Stade de France        |    81383
+ Stadio Giuseppe Meazza |    80018
+ Twickenham Stadium     |    82000
+ Wembley Stadium        |    90000
+(10 rows)
+
+QUERY 5
+ country 
+---------
+ England
+ Italy
+ Russia
+(3 rows)
+ 
+QUERY 6 (Bisogna aggiornare il dataset per verificarne la correttezza)
+ country | country 
+---------+---------
+(0 rows)
+
+QUERY 7
+      country       
+--------------------
+ Albania
+ Regno Veneto Unito
+(2 rows)
+
+QUERY 8
+        name        
+--------------------
+ Arsenale
+ Estadio de Uruguay
+(2 rows)
+
+QUERY 9
+ country 
+---------
+ Brasil
+ Bolivia
+(2 rows)
+
+QUERY 10
+      country       |      country       
+--------------------+--------------------
+ France             | Regno Veneto Unito
+ Bolivia            | Regno Veneto Unito
+ Portugal           | China
+ India              | China
+ China              | Bolivia
+ Brasil             | Regno Veneto Unito
+ Regno Veneto Unito | Albania
+ Brasil             | Bolivia
+(8 rows)
+
+QUERY 11
+ group 
+-------
+ B
+(1 row)
+
+QUERY 12
+     stadium     |    date    |   time   
+-----------------+------------+----------
+ Bolshoi Teatr   | 2020-12-19 | 16:47:37
+ Stade de France | 2020-12-19 | 16:47:37
+(2 rows)
+
+QUERY 13
+          name          | count 
+------------------------+-------
+ Arena di Verona        |     0
+ Arsenale               |     1
+ Beijing Stadium        |     0
+ Bogotà Stadium         |     2
+ Bolshoi Teatr          |     2
+ Camp Nou               |    57
+ Estadio da Luz         |    65
+ Estadio de Uruguay     |     0
+ Kolkata Stadium        |     0
+ Luzniki                |    71
+ New Delhi Stadium      |     0
+ Shangai Stadium        |     0
+ Signal Iduna Park      |    83
+ Stade de France        |    72
+ Stadio Giuseppe Meazza |    60
+ Stadio Trebaseleghe    |     0
+ Stadio di Conegliano   |     0
+ Stadiou Grando         |     0
+ Stadiou Picenin        |     0
+ Teatro del Castèo      |     0
+ Tokyo Stadium          |     1
+ Twickenham Stadium     |    49
+ Wembley Stadium        |    66
+(23 rows)
+
+QUERY 14
+   continent   | coalesce | coalesce 
+---------------+----------+----------
+ Asia          |   100000 | 76000.00
+ Europe        |   100000 | 70278.57
+ Oceania       |        0 |     0.00
+ South America |   100300 | 86400.00
+(4 rows)
+
+QUERY 15
+   continent   | count 
+---------------+-------
+ Asia          |     1
+ Europe        |  1153
+ Oceania       |     0
+ South America |    48
+(4 rows)
