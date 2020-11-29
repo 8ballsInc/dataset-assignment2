@@ -18,8 +18,10 @@ INSERT INTO "Nationality" VALUES ('Taiwan', 'Asia', 'C');
 INSERT INTO "Nationality" VALUES ('Myanmar', 'Asia', 'D');
 
 INSERT INTO "Nationality" VALUES ('Uruguay', 'South America', 'D');
+INSERT INTO "Nationality" Values ('BraggLandia', 'Europe', 'D');
 
 INSERT INTO "Nationality" VALUES ('Germany', 'Europe', 'F');
+INSERT INTO "Nationality" VALUES ('Thomasinia', 'South America', 'F');
 
 INSERT INTO "Nationality" VALUES ('Brasil', 'South America', 'L');
 
@@ -49,8 +51,11 @@ INSERT INTO "Stadium" VALUES ('Kolkata Stadium', 'Kolkata', 'India', 60000);
 INSERT INTO "Stadium" VALUES ('New Delhi Stadium', 'New Delhi', 'India', 60000);
 INSERT INTO "Stadium" VALUES ('Stadio Trebaseleghe', 'Trebaseleghe', 'Italy', 800);
 INSERT INTO "Stadium" VALUES ('Teatro del Castèo', 'Este', 'Italy', 800);
+INSERT INTO "Stadium" VALUES ('Stadio Grande del Bragg', 'Povo', 'BraggLandia', 919);
+INSERT INTO "Stadium" VALUES ('El Plato O Plomo de Thomas', 'Sacile', 'Thomasinia', 150000);
 
-
+INSERT INTO "Match" VALUES ('El Plato O Plomo de Thomas', '2020-10-28', '23:30:00', 'Thomasinia', 'BraggLandia');
+INSERT INTO "Match" VALUES ('Stadio Grande del Bragg', '2020-11-29', '12:15:00', 'Spain', 'Italy');
 INSERT INTO "Match" VALUES ('Estadio de Uruguay', '2010-12-12', '13:57:12', 'Regno Veneto Unito', 'Albania');
 INSERT INTO "Match" VALUES ('Bolshoi Teatr', '2020-12-19', '16:47:37', 'Regno Veneto Unito', 'Germany');
 INSERT INTO "Match" VALUES ('Bolshoi Teatr', '2001-12-19', '16:47:37', 'Regno Veneto Unito', 'Germany');
