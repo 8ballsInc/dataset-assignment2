@@ -1,4 +1,4 @@
-QUERY EFFETTUATE CON IL DATASET DEL 29/11/20 -> COMMIT d600d53abf65904f165a72217a9db9f7f4fc2a1d
+QUERY EFFETTUATE CON IL DATASET DEL 29/11/20 -> COMMIT 22b60bbc325bf3bea2f7f99425f083a7ca30fbbd
 
 QUERY 1
     city    
@@ -15,11 +15,12 @@ QUERY 1
  New Delhi
  Paris
  Pechino
+ Povo
  Shangai
  Tokyo
  Twickenham
  Venezia
-(16 rows)
+(17 rows)
 
 QUERY 2
     city    
@@ -52,19 +53,20 @@ QUERY 3
 (11 rows)
 
 QUERY 4
-          name          | capacity 
-------------------------+----------
- Arsenale               |   100000
- Beijing Stadium        |   100000
- Camp Nou               |    99534
- Estadio da Luz         |    65000
- Luzniki                |    78000
- Signal Iduna Park      |    81365
- Stade de France        |    81383
- Stadio Giuseppe Meazza |    80018
- Twickenham Stadium     |    82000
- Wembley Stadium        |    90000
-(10 rows)
+          name           | capacity 
+-------------------------+----------
+ Arsenale                |   100000
+ Beijing Stadium         |   100000
+ Camp Nou                |    99534
+ Estadio da Luz          |    65000
+ Luzniki                 |    78000
+ Signal Iduna Park       |    81365
+ Stade de France         |    81383
+ Stadio Giuseppe Meazza  |    80018
+ Stadio Grande del Bragg |      919
+ Twickenham Stadium      |    82000
+ Wembley Stadium         |    90000
+(11 rows)
 
 QUERY 5
  country 
@@ -74,35 +76,38 @@ QUERY 5
  Russia
 (3 rows)
  
-QUERY 6 (Bisogna aggiornare il dataset per verificarne la correttezza)
- country | country 
----------+---------
-(0 rows)
+QUERY 6 
+  country   |   country   
+------------+-------------
+ Thomasinia | BraggLandia
+(1 row)
 
 QUERY 7
       country       
 --------------------
  Albania
+ BraggLandia
  Regno Veneto Unito
-(2 rows)
+(3 rows)
 
 QUERY 8
-        name        
---------------------
+          name           
+-------------------------
  Arsenale
  Estadio de Uruguay
-(2 rows)
+ Stadio Grande del Bragg
+(3 rows)
 
-QUERY 9
- country 
----------
- Brasil
- Bolivia
-(2 rows)
+QUERY 9 (Bro credo che sia sbagliata)
+  country   
+------------
+ Thomasinia
+(1 row)
 
 QUERY 10
       country       |      country       
 --------------------+--------------------
+ Thomasinia         | BraggLandia
  France             | Regno Veneto Unito
  Bolivia            | Regno Veneto Unito
  Portugal           | China
@@ -111,7 +116,7 @@ QUERY 10
  Brasil             | Regno Veneto Unito
  Regno Veneto Unito | Albania
  Brasil             | Bolivia
-(8 rows)
+(9 rows)
 
 QUERY 11
  group 
@@ -127,47 +132,49 @@ QUERY 12
 (2 rows)
 
 QUERY 13
-          name          | count 
-------------------------+-------
- Arena di Verona        |     0
- Arsenale               |     1
- Beijing Stadium        |     0
- Bogotà Stadium         |     2
- Bolshoi Teatr          |     2
- Camp Nou               |    57
- Estadio da Luz         |    65
- Estadio de Uruguay     |     0
- Kolkata Stadium        |     0
- Luzniki                |    71
- New Delhi Stadium      |     0
- Shangai Stadium        |     0
- Signal Iduna Park      |    83
- Stade de France        |    72
- Stadio Giuseppe Meazza |    60
- Stadio Trebaseleghe    |     0
- Stadio di Conegliano   |     0
- Stadiou Grando         |     0
- Stadiou Picenin        |     0
- Teatro del Castèo      |     0
- Tokyo Stadium          |     1
- Twickenham Stadium     |    49
- Wembley Stadium        |    66
-(23 rows)
+            name            | count 
+----------------------------+-------
+ Arena di Verona            |     0
+ Arsenale                   |     1
+ Beijing Stadium            |     0
+ Bogotà Stadium             |     2
+ Bolshoi Teatr              |     2
+ Camp Nou                   |    57
+ El Plato O Plomo de Thomas |     0
+ Estadio da Luz             |    65
+ Estadio de Uruguay         |     0
+ Kolkata Stadium            |     0
+ Luzniki                    |    71
+ New Delhi Stadium          |     0
+ Shangai Stadium            |     0
+ Signal Iduna Park          |    83
+ Stade de France            |    72
+ Stadio Giuseppe Meazza     |    60
+ Stadio Grande del Bragg    |     0
+ Stadio Trebaseleghe        |     0
+ Stadio di Conegliano       |     0
+ Stadiou Grando             |     0
+ Stadiou Picenin            |     0
+ Teatro del Castèo          |     0
+ Tokyo Stadium              |     1
+ Twickenham Stadium         |    49
+ Wembley Stadium            |    66
+(25 rows)
 
 QUERY 14
-   continent   | coalesce | coalesce 
----------------+----------+----------
- Asia          |   100000 | 76000.00
- Europe        |   100000 | 70278.57
- Oceania       |        0 |     0.00
- South America |   100300 | 86400.00
+   continent   |  max   |   avg    
+---------------+--------+----------
+ Asia          | 100000 | 76000.00
+ Europe        | 100000 | 65654.60
+ Oceania       |      0 |     0.00
+ South America | 150000 | 99120.00
 (4 rows)
 
 QUERY 15
    continent   | count 
 ---------------+-------
  Asia          |     1
- Europe        |  1153
+ Europe        |  1154
  Oceania       |     0
  South America |    48
 (4 rows)
