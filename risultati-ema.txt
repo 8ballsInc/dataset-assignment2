@@ -37,20 +37,31 @@ QUERY 2
 (9 rows)
 
 QUERY 3
- country  
-----------
- Bolivia
- Brasil
- China
- England
- France
- Germany
- Italy
+      country       
+--------------------
  Portugal
- Russia
- Spain
  Uruguay
-(11 rows)
+ BraggLandia
+ England
+ Russia
+ Bolivia
+ Taiwan
+ Italy
+ India
+ Albania
+ China
+ Australia
+ Germany
+ Thomasinia
+ Kazakhstan
+ Japan
+ Myanmar
+ France
+ Spain
+ Brasil
+ Regno Veneto Unito
+ Cile
+(22 rows)
 
 QUERY 4
           name           | capacity 
