@@ -1,0 +1,204 @@
+QUERY 1
+
+    city    
+------------
+ Barcelona
+ Bogotà
+ Dortmund
+ Este
+ Lisbona
+ London
+ Milan
+ Montevideo
+ Moscow
+ New Delhi
+ Paris
+ Pechino
+ Povo
+ Shangai
+ Tokyo
+ Twickenham
+ Venezia
+(17 righe)
+
+QUERY 2
+
+    city    
+------------
+ Barcelona
+ Dortmund
+ Lisbona
+ London
+ Milan
+ Moscow
+ Paris
+ Pechino
+ Twickenham
+(9 righe)
+
+QUERY 3
+
+      country       
+--------------------
+ Albania
+ Australia
+ Bolivia
+ BraggLandia
+ Brasil
+ China
+ Cile
+ England
+ France
+ Germany
+ India
+ Italy
+ Japan
+ Kazakhstan
+ Myanmar
+ Portugal
+ Regno Veneto Unito
+ Russia
+ Spain
+ Taiwan
+ Thomasinia
+ Uruguay
+(22 righe)
+
+QUERY 4
+
+          name           | capacity 
+-------------------------+----------
+ Arsenale                |   100000
+ Beijing Stadium         |   100000
+ Camp Nou                |    99534
+ Estadio da Luz          |    65000
+ Luzniki                 |    78000
+ Signal Iduna Park       |    81365
+ Stade de France         |    81383
+ Stadio Giuseppe Meazza  |    80018
+ Stadio Grande del Bragg |      919
+ Twickenham Stadium      |    82000
+ Wembley Stadium         |    90000
+(11 righe)
+
+QUERY 5
+
+ country 
+---------
+ England
+ Italy
+ Russia
+(3 righe)
+
+QUERY 6
+
+  country   |   country   
+------------+-------------
+ Thomasinia | BraggLandia
+(1 riga)
+
+QUERY 7
+
+      country       
+--------------------
+ Albania
+ BraggLandia
+ Regno Veneto Unito
+(3 righe)
+
+QUERY 8
+
+          name           
+-------------------------
+ Arsenale
+ Estadio de Uruguay
+ Stadio Grande del Bragg
+(3 righe)
+
+QUERY 9
+
+  country   
+------------
+ Thomasinia
+(1 riga)
+
+QUERY 10
+
+      country       |      country       
+--------------------+--------------------
+ Thomasinia         | BraggLandia
+ France             | Regno Veneto Unito
+ Bolivia            | Regno Veneto Unito
+ Portugal           | China
+ India              | China
+ China              | Bolivia
+ Brasil             | Regno Veneto Unito
+ Regno Veneto Unito | Albania
+ Brasil             | Bolivia
+(9 righe)
+
+QUERY 11
+
+ group 
+-------
+ B
+(1 riga)
+
+QUERY 12
+
+     stadium     |    date    |   time   
+-----------------+------------+----------
+ Bolshoi Teatr   | 2020-12-19 | 16:47:37
+ Stade de France | 2020-12-19 | 16:47:37
+(2 righe)
+
+
+QUERY 13
+            name            | tmp 
+----------------------------+-----
+ Arena di Verona            |   0
+ Arsenale                   |   1
+ Beijing Stadium            |   0
+ Bogotà Stadium             |   2
+ Bolshoi Teatr              |   2
+ Camp Nou                   |  57
+ El Plato O Plomo de Thomas |   0
+ Estadio da Luz             |  65
+ Estadio de Uruguay         |   0
+ Kolkata Stadium            |   0
+ Luzniki                    |  71
+ New Delhi Stadium          |   0
+ Shangai Stadium            |   0
+ Signal Iduna Park          |  83
+ Stade de France            |  72
+ Stadio di Conegliano       |   0
+ Stadio Giuseppe Meazza     |  60
+ Stadio Grande del Bragg    |   0
+ Stadio Trebaseleghe        |   0
+ Stadiou Grando             |   0
+ Stadiou Picenin            |   0
+ Teatro del Castèo          |   0
+ Tokyo Stadium              |   1
+ Twickenham Stadium         |  49
+ Wembley Stadium            |  66
+(25 righe)
+
+QUERY 14
+
+   continent   |  max   |   avg    
+---------------+--------+----------
+ Asia          | 100000 | 76000.00
+ Europe        | 100000 | 65654.60
+ Oceania       |      0 |     0.00
+ South America | 150000 | 99120.00
+(4 righe)
+
+QUERY 15
+
+   continent   | counter 
+---------------+---------
+ Asia          |       2
+ Europe        |    1806
+ Oceania       |       0
+ South America |      69
+(4 righe)
