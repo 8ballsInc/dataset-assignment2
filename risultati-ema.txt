@@ -1,6 +1,4 @@
-QUERY EFFETTUATE CON IL DATASET DEL 29/11/20 -> COMMIT 22b60bbc325bf3bea2f7f99425f083a7ca30fbbd
-
-QUERY 1
+QUERY 1 
     city    
 ------------
  Barcelona
@@ -39,29 +37,19 @@ QUERY 2
 QUERY 3
       country       
 --------------------
- Portugal
- Uruguay
- BraggLandia
- England
- Russia
  Bolivia
- Taiwan
- Italy
- India
- Albania
- China
- Australia
- Germany
- Thomasinia
- Kazakhstan
- Japan
- Myanmar
- France
- Spain
  Brasil
+ China
+ England
+ France
+ Germany
+ Italy
+ Portugal
  Regno Veneto Unito
- Cile
-(22 rows)
+ Russia
+ Spain
+ Uruguay
+(12 rows)
 
 QUERY 4
           name           | capacity 
@@ -86,8 +74,8 @@ QUERY 5
  Italy
  Russia
 (3 rows)
- 
-QUERY 6 
+
+QUERY 6
   country   |   country   
 ------------+-------------
  Thomasinia | BraggLandia
