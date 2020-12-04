@@ -1,4 +1,5 @@
-QUERY 1
+
+Query 1
 
     city    
 ------------
@@ -21,7 +22,7 @@ QUERY 1
  Venezia
 (17 righe)
 
-QUERY 2
+Query 2
 
     city    
 ------------
@@ -36,7 +37,7 @@ QUERY 2
  Twickenham
 (9 righe)
 
-QUERY 3
+Query 3
 
       country       
 --------------------
@@ -64,7 +65,7 @@ QUERY 3
  Uruguay
 (22 righe)
 
-QUERY 4
+Query 4
 
           name           | capacity 
 -------------------------+----------
@@ -81,7 +82,7 @@ QUERY 4
  Wembley Stadium         |    90000
 (11 righe)
 
-QUERY 5
+Query 5
 
  country 
 ---------
@@ -90,14 +91,14 @@ QUERY 5
  Russia
 (3 righe)
 
-QUERY 6
+Query 6
 
   country   |   country   
 ------------+-------------
  Thomasinia | BraggLandia
 (1 riga)
 
-QUERY 7
+Query 7
 
       country       
 --------------------
@@ -106,7 +107,7 @@ QUERY 7
  Regno Veneto Unito
 (3 righe)
 
-QUERY 8
+Query 8
 
           name           
 -------------------------
@@ -115,14 +116,14 @@ QUERY 8
  Stadio Grande del Bragg
 (3 righe)
 
-QUERY 9
+Query 9
 
   country   
 ------------
  Thomasinia
 (1 riga)
 
-QUERY 10
+Query 10
 
       country       |      country       
 --------------------+--------------------
@@ -137,14 +138,14 @@ QUERY 10
  Brasil             | Bolivia
 (9 righe)
 
-QUERY 11
+Query 11
 
  group 
 -------
  B
 (1 riga)
 
-QUERY 12
+Query 12
 
      stadium     |    date    |   time   
 -----------------+------------+----------
@@ -152,8 +153,8 @@ QUERY 12
  Stade de France | 2020-12-19 | 16:47:37
 (2 righe)
 
+Query 13
 
-QUERY 13
             name            | tmp 
 ----------------------------+-----
  Arena di Verona            |   0
@@ -183,7 +184,7 @@ QUERY 13
  Wembley Stadium            |  66
 (25 righe)
 
-QUERY 14
+Query 14
 
    continent   |  max   |   avg    
 ---------------+--------+----------
@@ -193,12 +194,13 @@ QUERY 14
  South America | 150000 | 99120.00
 (4 righe)
 
-QUERY 15
+Query 15
 
    continent   | counter 
 ---------------+---------
- Asia          |       2
- Europe        |    1806
+ Asia          |       1
+ Europe        |    1152
  Oceania       |       0
- South America |      69
+ South America |       0
 (4 righe)
+
