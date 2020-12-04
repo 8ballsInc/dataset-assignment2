@@ -173,7 +173,7 @@ QUERY 15
    continent   | count 
 ---------------+-------
  Asia          |     1
- Europe        |  1154
+ Europe        |  1152
  Oceania       |     0
- South America |    48
+ South America |     0
 (4 rows)
